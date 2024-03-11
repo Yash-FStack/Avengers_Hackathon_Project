@@ -15,7 +15,7 @@ function Create_wallet() {
 
   useEffect(() => {
     console.log("here");
-    fetch('http://localhost:3000/createAccount')
+    fetch('https://avengers-hackathon-project.vercel.app/createAccount')
       .then(response => response.json())
       .then(data => {
         console.log(data);
