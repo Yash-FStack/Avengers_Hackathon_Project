@@ -13,6 +13,7 @@ function Create_wallet() {
 
   const navigate = useNavigate();
 
+
   useEffect(() => {
     console.log("here");
     fetch('https://6072-122-176-34-25.ngrok-free.app/createAccount', {

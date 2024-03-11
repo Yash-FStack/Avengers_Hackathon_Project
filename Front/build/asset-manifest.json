@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.351a0d58.css",
+    "main.js": "/static/js/main.de9429c4.js",
+    "static/js/592.ae0494f9.chunk.js": "/static/js/592.ae0494f9.chunk.js",
+    "static/media/yourCryptoLogo-removebg-preview.png": "/static/media/yourCryptoLogo-removebg-preview.155771e6a28ce4d401b3.png",
+    "static/media/87-875958_back-arrow-in-circle-symbol-removebg-preview.png": "/static/media/87-875958_back-arrow-in-circle-symbol-removebg-preview.b7bc2f48dd7041c50a4f.png",
+    "static/media/send.png": "/static/media/send.1d921ef0183981c7cfea.png",
+    "index.html": "/index.html",
+    "main.351a0d58.css.map": "/static/css/main.351a0d58.css.map",
+    "main.de9429c4.js.map": "/static/js/main.de9429c4.js.map",
+    "592.ae0494f9.chunk.js.map": "/static/js/592.ae0494f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.351a0d58.css",
+    "static/js/main.de9429c4.js"
+  ]
+}
