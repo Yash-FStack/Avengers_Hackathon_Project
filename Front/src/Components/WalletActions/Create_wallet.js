@@ -15,7 +15,12 @@ function Create_wallet() {
 
   useEffect(() => {
     console.log("here");
-    fetch('http://localhost:3000/createAccount')
+    fetch('https://6072-122-176-34-25.ngrok-free.app/createAccount', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        "ngrok-skip-browser-warning": "69420"
+      } })
       .then(response => response.json())
       .then(data => {
         console.log(data);
