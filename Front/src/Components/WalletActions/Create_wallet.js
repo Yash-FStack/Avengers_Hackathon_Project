@@ -13,12 +13,15 @@ function Create_wallet() {
 
   const navigate = useNavigate();
 
+
   useEffect(() => {
     console.log("here");
-    fetch('https://avengers-hackathon-project.vercel.app/createAccount', {
+    fetch('https://6072-122-176-34-25.ngrok-free.app/createAccount', {
       method: 'GET',
-      mode: 'no-cors'
-    })
+      headers: {
+        'Content-Type': 'application/json',
+        "ngrok-skip-browser-warning": "69420"
+      }})
       .then(response => response.json())
       .then(data => {
         console.log(data);
